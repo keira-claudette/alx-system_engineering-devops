@@ -1,0 +1,9 @@
+#!/bin/bash
+grep -i ?* /etc/ssh/sshd_config
+
+
+
+
+
+
+
