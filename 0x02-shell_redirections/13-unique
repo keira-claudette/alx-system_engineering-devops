@@ -1,4 +1,5 @@
 #!/bin/bash
+tr ' ' '\n' | uniq -u | sort
 
 
 
