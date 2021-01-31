@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Holberton School\n" > \\\*\\\\\'\"Holberton School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+grep -A 3 "root" /etc/passwd
+
 
 
 
