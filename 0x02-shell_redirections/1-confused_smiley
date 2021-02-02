@@ -1,2 +1,2 @@
 #!/bin/bash
-echo \"'(?o)'\' 
+echo -e "\x22\x28\xc394\x6f\x29\x27" 
