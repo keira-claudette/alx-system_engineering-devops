@@ -62,7 +62,7 @@ A Bash script that gives you information about the holbertonschool file.
 A Bash script that displays numbers from 1 to 100.
 Requirements:
 	- Displays `FizzBuzz` when the number is a multiple of 3 and 5<br>
-	- Displays `Fizz` when the number is multiple of 3
-	- Displays `Buzz` when the number is a multiple of 5
-	- Otherwise, displays the number
+	- Displays `Fizz` when the number is multiple of 3<br>
+	- Displays `Buzz` when the number is a multiple of 5<br>
+	- Otherwise, displays the number<br>
 	- In a list format
