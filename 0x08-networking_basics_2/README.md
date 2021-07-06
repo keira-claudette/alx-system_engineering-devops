@@ -10,13 +10,13 @@ Requirements: <br>
 Bash script that displays all active IPv4 IPs on the machine s executed on.it
 
 - ###### 100-port_listening_on_localhost
-Bash script that listens on port 98 on localhost.<br>
-     - ###### Terminal 0
-     Starting my script.
-     - ###### Terminal 1
-     Connecting to localhost on port 98 using telnet and typing some text.
-     - ###### Terminal 0
-     Receiving the text on the other side.
+Bash script that listens on port 98 on localhost.</br>
+	- ###### Terminal 0
+Starting my script.</br>
+	- ###### Terminal 1
+Connecting to localhost on port 98 using telnet and typing some text.
+	- ###### Terminal 0
+Receiving the text on the other side.
 
 Note: For the sake of the exercise, this connection is made entirely within localhost. This t really exciting as is, but we can use this script across networks as well. Try running it between your local PC and your remote server for fun!
 
