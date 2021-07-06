@@ -10,7 +10,7 @@ Requirements: <br>
 Bash script that displays all active IPv4 IPs on the machine s executed on.it
 
 - ###### 100-port_listening_on_localhost
-Bash script that listens on port 98 on localhost.
+Bash script that listens on port 98 on localhost.<br>
      - ###### Terminal 0
      Starting my script.
      - ###### Terminal 1
