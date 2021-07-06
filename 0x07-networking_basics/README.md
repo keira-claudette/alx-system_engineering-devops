@@ -3,8 +3,8 @@
 How is the OSI model organized?
 
 ###### 1-types_of_network
-What type of network a computer in local is connected to?
-What type of network could connect an office in one building to another office in a building a few streets away?
+What type of network a computer in local is connected to?</br>
+What type of network could connect an office in one building to another office in a building a few streets away?</br>
 What network do you use when you browse www.holbertonschool.com from your smartphone (not connected to the Wifi)?
 
 ###### 0x07-networking_basics
