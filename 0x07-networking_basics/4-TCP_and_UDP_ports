@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # displays listening ports
-sudo netstat -tunlp
+#https://www.linode.com/docs/guides/inspecting-network-information-with-netstat/
+sudo netstat -lp
