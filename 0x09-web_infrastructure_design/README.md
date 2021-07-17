@@ -1,19 +1,19 @@
 # Web infrastructure design
 This repository covers the following concepts:
-- 1. DNS
-- 2. Web server
-- 3. Load balancer
-- 4. Monitoring
-- 5. Network basics
-- 6. Server
+- DNS
+- Web server
+- Load balancer
+- Monitoring
+- Network basics
+- Server
 
 The files in this repository contain links to different web infrastructure
 designs.
 
 - ##### 0-simple_web_stack
 Contains link to a design with the following components:
-	 - 1 server
-	 - 1 web server (Nginx)
+- 1 server
+	- 1 web server (Nginx)
 	 - 1 application server
  	 - 1 application files (your code base)
 	 - 1 database (MySQL)
