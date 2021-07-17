@@ -22,7 +22,7 @@ Contains link to a design with the following components:
 
 - ##### 1-distributed_web_infrastructure
 Contains link to a design with the following components:
-	 - 3 servers
+- 3 servers
 	 - 1 web server (Nginx)
 	 - 1 application server
 	 - 1 load-balancer (HAproxy)
@@ -30,13 +30,15 @@ Contains link to a design with the following components:
 	 - 1 database (MySQL)
 
 - ##### 2-secured_and_monitored_web_infrastructure
-Contains link to a design with the following components added to design 1-distributed_web_infrastructure:
+Contains link to a design with the following components
+- added to design 1-distributed_web_infrastructure:
 	 - 3 firewalls
 	 - 1 SSL certificate to serve www.foobar.com over HTTPS
 	 - 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
 - ##### 3-scale_up
-Contains link to a design with the following components added to design 2-secured_and_monitored_web_infrastructure:
+Contains link to a design with the following components
+- added to design 2-secured_and_monitored_web_infrastructure:
 	 - 1 server
 	 - 1 load-balancer (HAproxy) configured as cluster with the other one
 	 - Split components (web server, application server, database) with their own server
