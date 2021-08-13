@@ -33,7 +33,7 @@ puppet-lint some_file.pp
 
 
 - ### 0-create_a_file.pp
-This file uses Puppet to create a file in `/tmp`.<br>
+This Puppet manifest creates a file in `/tmp`.<br>
 
 - Requirements:
   - File path is `/tmp/holberton`
@@ -43,15 +43,14 @@ This file uses Puppet to create a file in `/tmp`.<br>
   - File contains `I love Puppet`
 
 - ### 1-install_a_package.pp
-This file demonstrates how to use Puppet to install `puppet-lint`.<br>
+This Puppet manifest installs `puppet-lint`.<br>
 
 - Requirements:
   - Install `puppet-lint`
   - Version must be `2.1.1`
 
 - ### 2-execute_a_command.pp
-This file demonstrates using Puppet to create a manifest that kills a process
- named `killmenow`.<br>
+This Puppet manifest kills a process named `killmenow`.<br>
 - Reguirements
   - Must be the `exec` Puppet resource
   - Must use `pkill`
