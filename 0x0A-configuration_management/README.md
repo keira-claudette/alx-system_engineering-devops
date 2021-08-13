@@ -12,7 +12,7 @@ $ apt-get install -y ruby
 $ gem install puppet-lint -v 2.1.1
 ```
 
-### Tasks
+# Tasks
 ##### 0-create_a_file.pp
 This file uses Puppet to create a file in `/tmp`.<br>
 Requirements:
@@ -34,5 +34,7 @@ This file demonstrates using Puppet to create a manifest that kills a process
 Requirements:
 - Must be the `exec` Puppet resource
 - Must use `pkill`
+
+
 
 <img src="https://puppet.com/images/logos/puppet-logo-black.svg" width="160" height=auto/>
