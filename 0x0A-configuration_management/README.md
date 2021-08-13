@@ -23,7 +23,7 @@ puppet apply some_file.pp
 ### Using puppet-lint
 
 ```
-puppey-lint some_file.pp
+puppet-lint some_file.pp
 
 ```
 
