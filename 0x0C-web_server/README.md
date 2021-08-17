@@ -11,7 +11,7 @@
 - System Administration
 - Site Reliablility Engineering
 
-## Tasks
+## Files
 
 ##### 0-transfer_file
 A Bash script that transfers a file from our client to a server:<br>
