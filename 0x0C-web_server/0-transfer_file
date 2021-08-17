@@ -14,4 +14,4 @@ else
     #echo "$path_to_file, $ip, $username, $path_to_ssh_key"
 fi
 
-scp -ib $path_to_ssh_key $path_to_file $username@$ip
+scp -i $path_to_ssh_key -o StrictHostKeyChecking=no $path_to_file "$username@$ip":~/
