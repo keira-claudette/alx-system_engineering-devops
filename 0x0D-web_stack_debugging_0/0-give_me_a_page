@@ -3,4 +3,3 @@
 # Read: https://askubuntu.com/questions/256013/apache-error-could-not-reliably-
 # determine-the-servers-fully-qualified-domain-n
 service apache2 start
-sed -i '1 i ServerName localhost' /etc/apache2/apache2.conf
