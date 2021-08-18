@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # configures an Nginx server so that /redirect_me is redirecting to another page
-# Read: https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-# on-ubuntu-14-04
+# READ: https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-14-04
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
