@@ -1,8 +1,7 @@
 # A puppet manifest that:
 #			 1. Installs nginx
 #			 2. Redirects url(redirect_me) to a youtube page
-#			 3. Creates and configures nginx to use a custom
-#			    error 404 page.
+#			 3. Creates a custom default html page
 
 package { 'nginx':
   ensure => installed,
