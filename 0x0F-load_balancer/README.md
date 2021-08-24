@@ -1,6 +1,6 @@
 # Load balancer
 
-[An Introduction to HAProxy and Load Balancing Concepts](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)
+### [`An Introduction to HAProxy and Load Balancing Concepts`](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)
 
 ### Files
 ##### 0-custom_http_response_header
