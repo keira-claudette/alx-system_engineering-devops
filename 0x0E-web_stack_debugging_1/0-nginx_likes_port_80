@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+# Fixes a bug: Nginx installation not listening on port 80
