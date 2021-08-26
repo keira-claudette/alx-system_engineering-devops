@@ -9,7 +9,7 @@ Displays information about subdomains.
 Creating a certificate using `certbot` and configuring `HAproxy` to accept
  encrypted traffic to my subdomain www
 
-[`Useful`](https://www.digitalocean.com/community/tutorials/how-to-secure-haproxy-with-let-s-encrypt-on-ubuntu-14-04)
-# 
+#### [`Useful Resource.`](https://www.digitalocean.com/community/tutorials/how-to-secure-haproxy-with-let-s-encrypt-on-ubuntu-14-04)
 
-<img src="https://www.websitepulse.com/blog/uploads/SSL-Secure-Connection.png" width="100" height="auto"/>
+
+<img src="https://www.websitepulse.com/blog/uploads/SSL-Secure-Connection.png" width="100" height=auto/>
