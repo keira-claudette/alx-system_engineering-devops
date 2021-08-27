@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Fixes a bug: Nginx installation not listening on port 80
 sudo apt-get install nginx
 sudo service nginx start
