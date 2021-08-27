@@ -15,4 +15,4 @@ Creating a certificate using `certbot` and configuring `HAproxy` to accept
 
 <img src="https://www.websitepulse.com/blog/uploads/SSL-Secure-Connection.png" width="100" height=auto/>
 
-<img src="https://cdn.haproxy.com/wp-content/uploads/2018/05/Blog-image-Lets-Encrypt.png" width="160" height=auto/>
+<img src="https://cdn.haproxy.com/wp-content/uploads/2018/05/Blog-image-Lets-Encrypt.png" width="200" height=auto/>
