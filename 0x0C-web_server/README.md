@@ -1,5 +1,7 @@
 # Web server
 
+<img src="https://nginx.org/nginx.png" width="160" height=auto/>
+
 ## Concepts
 - DNS
 - Web server
