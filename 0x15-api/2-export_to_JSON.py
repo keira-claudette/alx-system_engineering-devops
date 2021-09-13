@@ -7,23 +7,23 @@ if __name__ == "__main__":
     import requests
     import sys
 
-    userId = sys.argv[1]
-    user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
-                        .format(userId))
-    todos = requests.get('https://jsonplaceholder.typicode.com/todos')
-    todos = todos.json()
+    user_id = sys.argv[1]
+    url = 'https://jsonplaceholder.typicode.com/users/{}/'.format(user_id)
+    todos_url = url + 'todos'
+    user = requests.get(url).json()
+    todos = requests.get(todos_url).json()
 
-    todoUser = {}
-    taskList = []
+    todo_list = []
+    for todo in todos:
+        new_dict = {}
+        new_dict['task'] = todo.get('title')
+        new_dict['completed'] = todo.get('completed')
+        new_dict['username'] = user.get('username')
+        todo_list.append(new_dict)
 
-    for task in todos:
-        if task.get('userId') == int(userId):
-            taskDict = {"task": task.get('title'),
-                        "completed": task.get('completed'),
-                        "username": user.json().get('username')}
-            taskList.append(taskDict)
-    todoUser[userId] = taskList
+    todo_dict = {user.get('id'): todo_list}
 
-    filename = userId + '.json'
-    with open(filename, mode='w') as f:
-        json.dump(todoUser, f)
+    file_name = '{}.json'.format(user.get('id'))
+
+    with open(file_name, mode='w') as outfile:
+        json.dump(todo_dict, outfile)
