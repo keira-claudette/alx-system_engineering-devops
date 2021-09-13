@@ -16,3 +16,7 @@ Export to JSON
 
 - ###### 3-dictionary_of_list_of_dictionaries.py
 Dictionary of list of dictionaries
+
+###### [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
+
+![image](https://user-images.githubusercontent.com/68082012/133145400-7b94fd07-12da-439b-8653-b7fa09c2a055.png)
