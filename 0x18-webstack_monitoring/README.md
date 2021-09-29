@@ -1,2 +1,2 @@
 # Webstack Monitoring
-<img src="https://i.ytimg.com/vi/YHmCQ5GVeTk/maxresdefault.jpg" height="auto" width="160"/>
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/cf/32/d9/cf32d982-a8af-0156-c775-2dd05a5673e3/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/1200x630wa.png" height="auto" width="160"/>
