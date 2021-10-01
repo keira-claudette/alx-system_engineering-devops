@@ -3,6 +3,8 @@
 - Automating the process using puppet
 
 ###### Tip
-``` puppet parser validate some_file.pp
-    puppet-lint some_file.pp
+```
+puppet parser validate some_file.pp
+
+puppet-lint some_file.pp
 ```
