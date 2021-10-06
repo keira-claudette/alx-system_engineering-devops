@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Connecting to a serber using ssh and key stored in ~ssh/holberton
+# Connecting to a server using ssh and key stored in ~ssh/holberton
 
-ssh -i ~/.ssh/holberton ubuntu@35.229.69.71
+ssh -i ~/.ssh/school ubuntu@34.138.67.216
