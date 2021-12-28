@@ -51,7 +51,7 @@ This Puppet manifest installs `puppet-lint`.<br>
 
 - ### 2-execute_a_command.pp
 This Puppet manifest kills a process named `killmenow`.<br>
-- Reguirements
+- Requirements
   - Must be the `exec` Puppet resource
   - Must use `pkill`
 
